@@ -46,6 +46,18 @@ body {
   justify-content: flex-end;
   align-items: flex-end; }
 
+.flex-align-space-center {
+  justify-content: space-around;
+  align-items: center; }
+
+.flex-align-space-start {
+  justify-content: space-around;
+  align-items: flexstart; }
+
+.flex-align-space-end {
+  justify-content: space-around;
+  align-items: flex-end; }
+
 .flex-5 {
   flex-basis: 5%; }
 

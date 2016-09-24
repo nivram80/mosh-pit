@@ -46,6 +46,18 @@
   @include flex-align(flex-end, flex-end);
 }
 
+.flex-align-space-center {
+  @include flex-align(space-around, center);
+}
+
+.flex-align-space-start {
+  @include flex-align(space-around, flex-start);
+}
+
+.flex-align-space-end {
+  @include flex-align(space-around, flex-end);
+}
+
 // Flex Percentages
 .flex-5  { flex-basis:  5%; }
 .flex-10 { flex-basis: 10%; }
