@@ -1,6 +1,23 @@
+@import "components/settings";
+
 body {
   width: 100%;
   height: 100vh;
+  background-color: $main-bg-color;
+  margin: 0;
+  padding: 0;
 }
 
-@import "components/settings";
+.section {
+  margin: 5px;
+  border-radius: 2px;
+}
+
+.section-one {
+  background-color: #2faa5b
+}
+
+.section-two {
+  background-color: #ff7f50;
+}
+
