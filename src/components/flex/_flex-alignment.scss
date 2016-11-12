@@ -2,6 +2,12 @@
   @include flex-align(center, center);
 }
 
+@media (min-width: 599px) {
+  .flex-align-center-center-xs {
+    @include flex-align(center, center);
+  }
+}
+
 .flex-align-center-start {
   @include flex-align(center, center);
 }
