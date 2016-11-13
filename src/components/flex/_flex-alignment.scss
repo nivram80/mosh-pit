@@ -46,7 +46,7 @@
   @include flex-align(space-around, flex-end);
 }
 
-@media (max-width: 599px) {
+@media (max-width: $xs -1) {
   .flex-align-center-center-xxs {
     @include flex-align(center, center);
   }
@@ -96,7 +96,7 @@
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: $xs) {
   .flex-align-center-center-xs {
     @include flex-align(center, center);
   }
@@ -146,7 +146,7 @@
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: $sm) {
   .flex-align-center-center-sm {
     @include flex-align(center, center);
   }
@@ -196,7 +196,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: $md) {
   .flex-align-center-center-md {
     @include flex-align(center, center);
   }
@@ -246,7 +246,7 @@
   }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: $lg) {
   .flex-align-center-center-lg {
     @include flex-align(center, center);
   }
@@ -296,7 +296,7 @@
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: $xl) {
   .flex-align-center-center-xl {
     @include flex-align(center, center);
   }
@@ -346,7 +346,7 @@
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: $xxl) {
   .flex-align-center-center-xxl {
     @include flex-align(center, center);
   }
@@ -396,7 +396,7 @@
   }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: $xxxl) {
   .flex-align-center-center-xxxl {
     @include flex-align(center, center);
   }

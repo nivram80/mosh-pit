@@ -6,7 +6,16 @@
   @include flex(column);
 }
 
-@media (min-width: 599px) {
+@media (max-width: $xs - 1) {
+  .flex-row-xxs {
+    @include flex(row);
+  }
+  .flex-column-xxs {
+    @include flex(column);
+  }
+}
+
+@media (min-width: $xs) {
   .flex-row-xs {
     @include flex(row);
   }
@@ -15,7 +24,7 @@
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: $sm) {
   .flex-row-sm {
     @include flex(row);
   }
@@ -24,7 +33,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: $md) {
   .flex-row-md {
     @include flex(row);
   }
@@ -33,7 +42,7 @@
   }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: $lg) {
   .flex-row-lg {
     @include flex(row);
   }
@@ -42,7 +51,7 @@
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: $xl) {
   .flex-row-xl {
     @include flex(row);
   }
@@ -51,7 +60,7 @@
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: $xxl) {
   .flex-row-xxl {
     @include flex(row);
   }
@@ -60,7 +69,7 @@
   }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: $xxxl) {
   .flex-row-xxxl {
     @include flex(row);
   }
