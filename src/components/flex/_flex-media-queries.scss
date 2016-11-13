@@ -6,74 +6,118 @@
   @include flex(column);
 }
 
-@media (max-width: $xs - 1) {
+@include flex-align-size(null);
+
+@include flex-percentage(null);
+
+@media (max-width: $xs -1) {
   .flex-row-xxs {
     @include flex(row);
   }
+
   .flex-column-xxs {
     @include flex(column);
   }
+
+  @include flex-align-size(xxs);
+
+  @include flex-percentage(xxs);
 }
 
 @media (min-width: $xs) {
   .flex-row-xs {
     @include flex(row);
   }
+
   .flex-column-xs {
     @include flex(column);
   }
+
+  @include flex-align-size(xs);
+
+  @include flex-percentage(xs);
 }
 
 @media (min-width: $sm) {
   .flex-row-sm {
     @include flex(row);
   }
+
   .flex-column-sm {
     @include flex(column);
   }
+
+  @include flex-align-size(sm);
+
+  @include flex-percentage(sm);
 }
 
 @media (min-width: $md) {
   .flex-row-md {
     @include flex(row);
   }
+
   .flex-column-md {
     @include flex(column);
   }
+
+  @include flex-align-size(md);
+
+  @include flex-percentage(md);
 }
 
 @media (min-width: $lg) {
   .flex-row-lg {
     @include flex(row);
   }
+
   .flex-column-lg {
     @include flex(column);
   }
+
+  @include flex-align-size(lg);
+
+  @include flex-percentage(lg);
 }
 
 @media (min-width: $xl) {
   .flex-row-xl {
     @include flex(row);
   }
+
   .flex-column-xl {
     @include flex(column);
   }
+
+  @include flex-align-size(xl);
+
+  @include flex-percentage(xl);
 }
 
 @media (min-width: $xxl) {
   .flex-row-xxl {
     @include flex(row);
   }
+
   .flex-column-xxl {
     @include flex(column);
   }
+
+  @include flex-align-size(xxl);
+
+  @include flex-percentage(xxl);
 }
 
 @media (min-width: $xxxl) {
   .flex-row-xxxl {
     @include flex(row);
   }
+
   .flex-column-xxxl {
     @include flex(column);
   }
+
+  @include flex-align-size(xxxl);
+
+  @include flex-percentage(xxxl);
 }
