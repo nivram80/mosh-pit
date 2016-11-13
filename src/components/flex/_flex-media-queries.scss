@@ -1,3 +1,4 @@
+// Defaults.
 .flex-row {
   @include flex(row);
 }
@@ -10,6 +11,8 @@
 
 @include flex-percentage(null);
 
+
+// Extra extra small screens.
 @media (max-width: $xs -1) {
   .flex-row-xxs {
     @include flex(row);
@@ -24,6 +27,8 @@
   @include flex-percentage(xxs);
 }
 
+
+// Extra small screens.
 @media (min-width: $xs) {
   .flex-row-xs {
     @include flex(row);
@@ -38,6 +43,8 @@
   @include flex-percentage(xs);
 }
 
+
+// Small screens.
 @media (min-width: $sm) {
   .flex-row-sm {
     @include flex(row);
@@ -52,6 +59,8 @@
   @include flex-percentage(sm);
 }
 
+
+// Medium screens.
 @media (min-width: $md) {
   .flex-row-md {
     @include flex(row);
@@ -66,6 +75,8 @@
   @include flex-percentage(md);
 }
 
+
+// Large screens.
 @media (min-width: $lg) {
   .flex-row-lg {
     @include flex(row);
@@ -80,6 +91,8 @@
   @include flex-percentage(lg);
 }
 
+
+// Extra large screens.
 @media (min-width: $xl) {
   .flex-row-xl {
     @include flex(row);
@@ -94,6 +107,8 @@
   @include flex-percentage(xl);
 }
 
+
+// Extra extra large screens.
 @media (min-width: $xxl) {
   .flex-row-xxl {
     @include flex(row);
@@ -108,6 +123,8 @@
   @include flex-percentage(xxl);
 }
 
+
+// Extra extra extra large screens.
 @media (min-width: $xxxl) {
   .flex-row-xxxl {
     @include flex(row);
